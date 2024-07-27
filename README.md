@@ -8,7 +8,7 @@ This project contains a Jupyter Notebook (`oop_in_python.ipynb`) that explains a
 
 ## Prerequisites
 
-To run the notebook, you need to have Python and Jupyter Notebook installed. It's recommended to use a virtual environment to manage dependencies.
+To run the notebook, you need to have Python and Jupyter Lab installed. It's recommended to use a virtual environment to manage dependencies.
 
 ## Installation
 
@@ -31,7 +31,7 @@ To run the notebook, you need to have Python and Jupyter Notebook installed. It'
 
 4. **Start Jupyter Lab:**
     ```sh
-    jupyterlab
+    jupyter lab
     ```
 
 5. Open the `oop_in_python.ipynb` notebook and run the cells.
@@ -65,6 +65,7 @@ class Car:
 engine = Engine(150)
 car = Car("Toyota", "Corolla", engine)
 car.start()
+
 
 ## Author
 
